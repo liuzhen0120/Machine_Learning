@@ -6,9 +6,9 @@
 	- 'can not import multyarray':`pip uninstall numpy`;`pip install numpy`
 ## 2.吴恩达Coursera视频
 ## 3.台湾国立大学林轩田
-	- [《机器学习基石》](./Machine Learning Foundations(MOOC))
-	- 《机器学习技法》
+- [《机器学习基石》](./Machine_Learning_Foundations(MOOC))
+- 《机器学习技法》
 ## 4.吴恩达斯坦福公开课视频
 ## 5.李宏毅深度学习课程ppt
-## 6.[机器学习实战](./Machine Learning in Action)
+## 6.[机器学习实战](./Machine_Learning_in_Action)
 ## 7.统计学习方法阅读
