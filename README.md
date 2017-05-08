@@ -12,3 +12,8 @@
 ## 5.李宏毅深度学习课程ppt
 ## 6.[机器学习实战](./Machine_Learning_in_Action)
 ## 7.统计学习方法阅读
+## 8.[集体智慧编程](./Programming_Collective_Intelligence)
+
+
+---
+**[常见中英文对照](./Translation)**
