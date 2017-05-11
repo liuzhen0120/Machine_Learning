@@ -45,3 +45,7 @@
 - ![7.2](./7/7.2.png)
 - 3.Some remaining issues of PLA
 - ![7.3](./7/7.3.png)
+
+## 8.Linear Separability
+- 1.Linear Separability
+- ![8.1](./8/8.1.png)
