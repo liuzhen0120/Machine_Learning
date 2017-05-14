@@ -9,9 +9,9 @@
 
 ## 4.Components of Machine Learing
 - 1.Basic Notatations
-   - ![Basic notation](./4/4.1.png)
-   - ![Learning Model](./4/4.2.png)
-   - ![Test](./4/4.3.png)
+   - ![Basic notation](./pics/4/4.1.png)
+   - ![Learning Model](./pics/4/4.2.png)
+   - ![Test](./pics/4/4.3.png)
    - X:输入
    - Y:输出
    - D:数据
@@ -24,28 +24,28 @@
 
 ## 5.Machine Learning and Other Fields
 - Data Mining
-- ![Data Mining](./5/5.1.png)
+- ![Data Mining](./pics/5/5.1.png)
 - Artificial Intelligence
-- ![Artificial Intelligence](./5/5.2.png)
+- ![Artificial Intelligence](./pics/5/5.2.png)
 - Statistics
-- ![Statistics](./5/5.3.png)
+- ![Statistics](./pics/5/5.3.png)
 
 ## 6.Perceptron
 - 1.A simple Hypothesis Set: the 'Perceptron'
-- ![6.1](./6/6.1.png)
+- ![6.1](./pics/6/6.1.png)
 - 2.Vector Form of Perceptron Hypothesis
-- ![6.2](./6/6.2.png)
+- ![6.2](./pics/6/6.2.png)
 - 3.Linear classifiers
-- ![6.3](./6/6.3.png)
+- ![6.3](./pics/6/6.3.png)
 
 ## 7.Perceptron Learing Algorithm(PLA)
 - 1.Select g from H 
-- ![7.1](./7/7.1.png)
+- ![7.1](./pics/7/7.1.png)
 - 2.PLA
-- ![7.2](./7/7.2.png)
+- ![7.2](./pics/7/7.2.png)
 - 3.Some remaining issues of PLA
-- ![7.3](./7/7.3.png)
+- ![7.3](./pics/7/7.3.png)
 
 ## 8.Linear Separability
 - 1.Linear Separability
-- ![8.1](./8/8.1.png)
+- ![8.1](./pics/8/8.1.png)
