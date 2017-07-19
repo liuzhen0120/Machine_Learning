@@ -12,7 +12,6 @@
 ---
 
 ## 3.[吴恩达斯坦福公开课视频](./Machine_Learning_Stanford_MOOC)
-[Link](http://open.163.com/movie/2008/1/M/C/M6SGF6VB4_M6SGHFBMC.html)
 	
 ---
 
