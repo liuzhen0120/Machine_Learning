@@ -7,11 +7,11 @@
 	
 ---
 
-## 2.吴恩达Coursera视频
+## 2.[吴恩达Coursera视频](./Machine_Learning_Coursera_Andrew-Ng)
 	
 ---
 
-## 3.[吴恩达斯坦福公开课视频](./Machine_Learning_Stanford_MOOC)
+## 3.[吴恩达斯坦福公开课视频](./Machine_Learning_Stanford_MOOC_Andrew-Ng)
 	
 ---
 
