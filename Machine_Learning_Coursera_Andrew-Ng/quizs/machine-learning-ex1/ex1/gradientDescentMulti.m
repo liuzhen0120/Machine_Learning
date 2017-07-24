@@ -17,20 +17,16 @@ for iter = 1:num_iters
     %       of the cost function (computeCostMulti) and gradient here.
     %
 
-
-
-
-
-
-
-
-
-
+    prediction = X * theta;     % 47 * 1  
+    cost = prediction - y;      % 47 * 1
+    temp = X' * cost;           % 3 * 1
+    theta = theta - alpha / m * temp;
 
     % ============================================================
 
     % Save the cost J in every iteration    
     J_history(iter) = computeCostMulti(X, y, theta);
+    fprintf('with theta = [%f %f %f], costValue = %f.\n',theta(1),theta(2),theta(3),J_history(iter));
 
 end
 
