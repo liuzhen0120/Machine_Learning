@@ -16,8 +16,8 @@ J = 0;
 prediction = X * theta;     % X -- 47 * 3; theta -- 3 * 1 
 sqrErrors = (prediction - y) .^ 2;
 J = 1/(2*m) * sum(sqrErrors);
-% TEMP = prediction - y;
-% J = 1/(2*m) * (TEMP' * TEMP);
+%TEMP = prediction - y;
+%J = 1/(2*m) * (TEMP' * TEMP);
 
 
 % =========================================================================

@@ -25,19 +25,24 @@ sigma = zeros(1, size(X, 2));
 %
 % Hint: You might find the 'mean' and 'std' functions useful.
 %       
-mu = mean(X);
-X(:,1) = X(:,1)- mu(:,1);
-X(:,2) = X(:,1)- mu(:,2);
 
-sigma = [std(X(:,1)), std(X(:,2))];
-X(:,1) = X(:,1)/sigma(1);
-X(:,2) = X(:,2)/sigma(2);
+%mu = mean(X);
+%X(:,1) = X(:,1)- mu(1);
+%X(:,2) = X(:,1)- mu(2);
 
+%sigma = [std(X(:,1)), std(X(:,2))];
+%X(:,1) = X(:,1)/sigma(1);
+%X(:,2) = X(:,2)/sigma(2);
 
+%X_norm = X;
 
+num_features = size(X,2);
 
-
-
+for x = 1:num_features
+    mu(x) = mean(X(:,x));
+    sigma(x) = std(X(:,x));
+    X_norm(:,x) = (X_norm(:,x) - mu(x)) / sigma(x);
+end
 
 % ============================================================
 

@@ -20,7 +20,7 @@ for iter = 1:num_iters
     prediction = X * theta;     % 47 * 1  
     cost = prediction - y;      % 47 * 1
     temp = X' * cost;           % 3 * 1
-    theta = theta - alpha / m * temp;
+    theta = theta - alpha * (1/ m) * temp;
 
     % ============================================================
 

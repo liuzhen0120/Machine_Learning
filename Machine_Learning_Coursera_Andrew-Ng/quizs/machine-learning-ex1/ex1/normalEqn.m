@@ -12,7 +12,8 @@ theta = zeros(size(X, 2), 1);
 
 % ---------------------- Sample Solution ----------------------
 
-
+theta = inv(X'*X) * X' * y;
+% fprintf('theta from normal equations is :[%f %f %f]\n',theta(1),theta(2),theta(3));
 
 
 % -------------------------------------------------------------
