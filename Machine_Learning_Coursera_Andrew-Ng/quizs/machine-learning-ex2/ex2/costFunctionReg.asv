@@ -28,10 +28,10 @@ h = sigmoid(X * theta); % hypothesis function;
 grad_1 = X' * (h-y) ./ m;
 grad = X' * (h-y) ./ m + theta * lambda / m;
 grad(1) = grad_1(1);
-% theta = theta - grad; % not pass with those code
-theta(1) = 0;
+theta = theta - grad;
 
-J = (dot(-y, log(h)) - dot((1-y),log(1-h))) / m + lambda / (2 * m) * (sum(theta .^ 2)); % cost function value;
+
+J = (dot(-y, log(h)) - dot((1-y),log(1-h))) / m + lambda / ()* (sum(theta .^ 2)); % cost function value;
 
 
 
