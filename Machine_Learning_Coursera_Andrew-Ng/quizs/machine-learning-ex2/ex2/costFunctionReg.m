@@ -19,7 +19,7 @@ grad = zeros(size(theta));
 
 h = sigmoid(X * theta); % hypothesis function;
 % something wrong about following code to compute theta without
-% regularizing theta(1)
+% regularizing theta(1);because this method is for linear regression model to compute the theta value
 % =======================
 % L = eye(size(theta,1));
 % L(1) = 0;
