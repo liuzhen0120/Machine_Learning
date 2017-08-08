@@ -25,12 +25,14 @@ h = sigmoid(X * theta); % hypothesis function;
 % L(1) = 0;
 % theta = (X'*X + lambda * L)' * X' *y;
 % =======================
-grad_1 = X' * (h-y) ./ m;
-grad = X' * (h-y) ./ m + theta * lambda / m;
-grad(1) = grad_1(1);
-% theta = theta - grad; % not pass with those code
-theta(1) = 0;
+% grad_1 = X' * (h-y) ./ m;
+% grad = X' * (h-y) ./ m + theta * lambda / m;
+% grad(1) = grad_1(1);
+% theta(1) = 0;
 
+% another edition
+theta(1) = 0;
+grad = X' * (h-y) ./ m + theta * lambda / m;
 J = (dot(-y, log(h)) - dot((1-y),log(1-h))) / m + lambda / (2 * m) * (sum(theta .^ 2)); % cost function value;
 
 
