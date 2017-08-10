@@ -6,7 +6,7 @@ function [J, grad] = lrCostFunction(theta, X, y, lambda)
 %   gradient of the cost w.r.t. to the parameters. 
 
 % Initialize some useful values
-m = length(y); % number of training examples
+m = length(y); % number of training examples--5000
 
 % You need to return the following variables correctly 
 J = 0;
@@ -36,13 +36,16 @@ grad = zeros(size(theta));
 %           grad = grad + YOUR_CODE_HERE (using the temp variable)
 %
 
+h = sigmoid(X * theta);
+left_part = dot(-y, log(h));
+right_part = dot((1-y), log(1-h));
 
+J_temp = (left_part - right_part) ./ m;
 
+theta(1) = 0;
 
-
-
-
-
+grad = X' * (h-y) ./ m + theta * lambda / m;
+J = J_temp + lambda / (2 * m) * (sum(theta .^ 2));
 
 
 % =============================================================
