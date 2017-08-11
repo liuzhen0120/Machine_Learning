@@ -33,7 +33,6 @@ X = [ones(m, 1) X];
 %
 %       fmincg works similarly to fminunc, but is more efficient when we
 %       are dealing with large number of parameters.
-%
 % Example Code for fmincg:
 %
 %     % Set Initial theta
