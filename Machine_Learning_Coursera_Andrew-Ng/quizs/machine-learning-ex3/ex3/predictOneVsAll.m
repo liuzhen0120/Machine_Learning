@@ -12,7 +12,7 @@ m = size(X, 1);
 num_labels = size(all_theta, 1);
 
 % You need to return the following variables correctly 
-p = zeros(size(X, 1), 1);
+p = zeros(size(X, 1), 1);  % p -- 5000 * 1
 
 % Add ones to the X data matrix
 X = [ones(m, 1) X];
@@ -30,9 +30,11 @@ X = [ones(m, 1) X];
 %       for each row.
 %       
 
+A = sigmoid(X * all_theta');  % A -- 5000 * 10
+[M, I] = max(A');        % M is the max number for each column, I is M's row indices in the column
+p = I';
 
-
-
+% I am on fire!
 
 
 

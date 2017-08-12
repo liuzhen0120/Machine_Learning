@@ -20,14 +20,16 @@ p = zeros(size(X, 1), 1);
 %       information see 'help max'. If your examples are in rows, then, you
 %       can use max(A, [], 2) to obtain the max for each row.
 %
+X = [ones(m,1) X];      % 5000 x 401
 
+A1 = sigmoid(X * Theta1');   % 5000 x 25
+A1 = [ones(m,1) A1];  % 5000 x 26
+A2 = sigmoid(A1 * Theta2');  % 5000 x 10
+[M, I] = max(A2, [], 2);  % M is the largest number of each row, I is the M's column indice.
+% I(I==10) = 0;
+p = I;
 
-
-
-
-
-
-
+% DON'T FORGET THE SIGMOID FUNCTION BEFORE TRANSPORT.
 
 % =========================================================================
 
