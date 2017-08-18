@@ -39,30 +39,28 @@ Theta2_grad = zeros(size(Theta2));
 %         cost function computation is correct by verifying the cost
 %         computed in ex4.m
 %
+X = [ones(m,1) X];% 5000 x 401
+a2 = sigmoid(X * Theta1');   % 5000 x 25
+a2 = [ones(m,1) a2];  % 5000 x 26
+a3 = sigmoid(a2 * Theta2');  % 5000 x 10
 
-X = [ones(m,1) X];      % 5000 x 401
-A1 = sigmoid(X * Theta1');   % 5000 x 25
-A1 = [ones(m,1) A1];  % 5000 x 26
-A2 = sigmoid(A1 * Theta2');  % 5000 x 10
-4
+% y(k) - the great trick - we need to recode the labels as vectors
+% containing only value 0 or 1
+% so we need transform y from 5000 x 1 to 5000 x 10
+yk = zeros(num_labels, m);
+for i = 1:m,
+    yk(y(i),i)=1;
+end;
 
-% left_part = sum(-log(A2') * y);  % 10 x 1
-% right_part = sum(log(1-(A2')) * (1-y));  % 10 x 1
-% J = left_part - right_part ./ m;
-
-% [M, I] = max(A2, [], 2);  % M is the largest number of each row, I is the M's column indice.
-% I(I==10) = 0;
-% p = I;
+J = (1/m) * sum ( sum ( (-yk) .* log(a3') - (1-yk) .* log( 1- a3')));
+% Do not regularizing the terms of bias
+t1 = Theta1(:,2:end);
+t2 = Theta2(:,2:end);
+Reg = lambda * (sum( sum (t1 .^ 2)) + sum(sum ( t2 .^ 2))) / (2*m);
+J = J + Reg;
 
 
 % ============================================================
-
-
-
-
-
-
-
 % Part 2: Implement the backpropagation algorithm to compute the gradients
 %         Theta1_grad and Theta2_grad. You should return the partial derivatives of
 %         the cost function with respect to Theta1 and Theta2 in Theta1_grad and
@@ -78,7 +76,35 @@ A2 = sigmoid(A1 * Theta2');  % 5000 x 10
 %               over the training examples if you are implementing it for the 
 %               first time.
 %
+% delta_3 = A2' - yk; % 10 x 5000
+% delta_2 = (delta_3' * Theta2) .* sigmoidGradient(a2); % 5000 x 26
+% delta_2 = delta_2(:,2:end); % 5000 x 25
 
+for t = 1:m,
+    a1 = X(t,:);    % X already have bias; 1 x 401
+    z2 = Theta1 * a1'; % 25 x 1
+    a2 = sigmoid(z2); % 25 x 1
+    a2 = [1; a2];   % add bias: 26 x 1
+    z3 = Theta2 * a2; % 10 x 1
+    a3 = sigmoid(z3);  % output layer: 10 x 1
+    
+    % back porpagation
+    z2 = [1; z2];
+    
+    delta_3 = a3 - yk(:,t); % 10 x 1
+    delta_2 = (Theta2' * delta_3) .* sigmoidGradient(z2);   % 26 x 1
+    
+    delta_2 = delta_2(2:end);   % skip delta_2(0): 25 x 1
+    
+    Theta2_grad = Theta2_grad + delta_3 * a2';
+    Theta1_grad = Theta1_grad + delta_2 * a1;
+end;
+
+
+
+
+
+% ============================================================
 
 % Part 3: Implement regularization with the cost function and gradients.
 %
@@ -88,7 +114,8 @@ A2 = sigmoid(A1 * Theta2');  % 5000 x 10
 %               and Theta2_grad from Part 2.
 %
 
-
+Theta1_grad(:,1) = Theta1_grad(:,1) ./ m;
+Theta1_grad(:,2:end) = Theta1_grad(:,2:end) ./ m  + ((lambda/m) * Theta1(
 
 
 
