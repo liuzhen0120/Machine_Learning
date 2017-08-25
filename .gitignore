@@ -1,5 +1,5 @@
 *.pdf
 Books/Machine_Learning_in_Action/machinelearninginactionSourceCode
 Machine_Learning_Stanford_MOOC/courseware
-Deep_Learning_AI_Andrew_Ng/quiz_snip
-Deep_Learning_AI_Andrew_Ng/*/*.py
+Deep_Learning_AI_Andrew_Ng/Neural Networks and Deep Learning/quiz_snip
+Deep_Learning_AI_Andrew_Ng/Neural Networks and Deep Learning/*/*.py
