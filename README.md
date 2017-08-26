@@ -7,15 +7,22 @@
 	
 ---
 
-## 2.[吴恩达Coursera视频](./Machine_Learning_Coursera_Andrew-Ng)
-	
+## 2.[Machine Learning_Andrew Ng](./Machine_Learning_Coursera_Andrew-Ng)
+
 ---
 
-## 3.[吴恩达斯坦福公开课视频](./Machine_Learning_Stanford_MOOC_Andrew-Ng)
-	
+## 3.[Deep Learning AI_Andrew Ng](./Deep_Learning_AI_Andrew_Ng)	
+
+---
+## 4.[Stanford MOOC_Andrew Ng (20 sllabus)](./Machine_Learning_Stanford_MOOC_Andrew-Ng)	
+
 ---
 
-## 4.台湾国立大学林轩田
+## 5.[Applied Data Science with Python](./Applied_Data_Science_with_Python)
+
+---
+
+## 6.台湾国立大学林轩田
 - [《机器学习基石》](./Machine_Learning_Foundations_MOOC)
 - 《机器学习技法》
 	
