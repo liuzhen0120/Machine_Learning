@@ -14,7 +14,7 @@
 ## 3.[Deep Learning AI_Andrew Ng](./Deep_Learning_AI_Andrew_Ng)	
 
 ---
-## 4.[Stanford MOOC_Andrew Ng (20 sllabus)](./Machine_Learning_Stanford_MOOC_Andrew-Ng)	
+## 4.[Stanford MOOC_Andrew Ng (20 syllabus)](./Machine_Learning_Stanford_MOOC_Andrew-Ng)	
 
 ---
 
