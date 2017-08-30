@@ -78,17 +78,18 @@ purchase_3 = pd.Series({'Name': 'Vinod',
 
 df = pd.DataFrame([purchase_1, purchase_2, purchase_3], index=['Store 1', 'Store 1', 'Store 2'])
 df.head()
-print(df)
-print('--------------------')
+# print(df)
+# print('1--------------------')
 # print(df[df['Cost'] > 3])
 # print(df['Name'][df['Cost']>3])
-df = df.set_index([df.index, 'Name'])
-print(df)
-print(df.index)
-print('--------------------')
-df.index.names = ['Location', 'Name']
-df = df.append(pd.Series(data={
-    'Cost': 3.00,
-    'Item Purchased': 'Kitty Food'},
-    name = ('Store 2', 'Kevyn')))
-print(df)
+# df = df.set_index([df.index, 'Name'])
+# print(df)
+m = max(df['Cost'])
+print(df[[df['Cost'] == m]])
+# print('2--------------------')
+# df.index.names = ['Location', 'Name']
+# df = df.append(pd.Series(data={
+#     'Cost': 3.00,
+#     'Item Purchased': 'Kitty Food'},
+#     name = ('Store 2', 'Kevyn')))
+# print(df)
