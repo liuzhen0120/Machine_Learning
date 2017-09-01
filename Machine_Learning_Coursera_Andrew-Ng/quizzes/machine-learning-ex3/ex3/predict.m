@@ -25,7 +25,7 @@ X = [ones(m,1) X];      % 5000 x 401
 A1 = sigmoid(X * Theta1');   % 5000 x 25
 A1 = [ones(m,1) A1];  % 5000 x 26
 A2 = sigmoid(A1 * Theta2');  % 5000 x 10
-[M, I] = max(A2, [], 2);  % M is the largest number of each row, I is the M's column indice.
+[M, I] = max(A2, [], 2);  % M is the largest number of each row, I is the M's column index.
 % I(I==10) = 0;
 p = I;
 

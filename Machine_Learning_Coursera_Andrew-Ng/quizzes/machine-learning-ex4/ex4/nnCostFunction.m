@@ -47,7 +47,7 @@ a3 = sigmoid(a2 * Theta2');  % 5000 x 10
 % y(k) - the great trick - we need to recode the labels as vectors
 % containing only value 0 or 1
 % so we need transform y from 5000 x 1 to 5000 x 10
-yk = zeros(num_labels, m);
+yk = zeros(num_labels, m);  % 10 x 5000
 for i = 1:m,
     yk(y(i),i)=1;
 end;
