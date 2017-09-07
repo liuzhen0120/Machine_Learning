@@ -6,11 +6,11 @@
 ### [Introduction_to_Programming_with_Matlab](./Introduction_to_Programming_with_Matlab)
 ### [Neural_Networks_for_Machine_Learning_BY_Geoffrey_Hinton](./Neural_Networks_for_Machine_Learning)
 ### [《机器学习基石》](./Machine_Learning_Foundations_MOOC)
-###《机器学习技法》
+### [《机器学习技法》](./)
 	
 ---
 
-## 《参考书》
+## 《参考书目》
 ### [机器学习实战](./Machine_Learning_in_Action)
 ### 统计学习方法
 ### [集体智慧编程](./Programming_Collective_Intelligence)
