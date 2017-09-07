@@ -53,7 +53,15 @@ error_val   = zeros(m, 1);
 
 % ---------------------- Sample Solution ----------------------
 
-
+for i = 1:m
+    % get theta from different training data set
+    theta_temp = trainLinearReg(X(1:i,:), y(1:i), lambda)
+    % get train error with i train data set
+    error_train(i) = linearRegCostFunction(X(1:i,:), y(1:i), theta_temp, 0)
+    % get validation error with whole validation data set
+    error_val(i) = linearRegCostFunction(Xval, yval, theta_temp, 0)
+end;
+    
 
 
 

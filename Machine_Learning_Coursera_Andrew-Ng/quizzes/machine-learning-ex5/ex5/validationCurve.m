@@ -39,10 +39,25 @@ error_val = zeros(length(lambda_vec), 1);
 %
 %
 
+for i = 1:length(lambda_vec),
+    lambda = lambda_vec(i);
+    theta = trainLinearReg(X, y, lambda);
+    error_train(i) = linearRegCostFunction(X, y, theta, 0);
+    error_val(i) = linearRegCostFunction(Xval, yval, theta, 0);
+end
 
-
-
-
+% get optimal value of lambda
+% error_val_min = min(error_val);
+% lambda_vec_opt = 0;
+% for i = 1:length(lambda_vec),
+%     lambda = lambda_vec(i);
+%     error = linearRegCostFunction(Xval, yval, theta, lambda);
+%     if error == error_val_min,
+%         lambda_vec_opt = lambda;
+%     end
+% end
+% 
+% lambda_vec = lambda_vec_opt;
 
 
 
