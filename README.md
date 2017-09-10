@@ -1,5 +1,5 @@
 ## Courses
-### 1.[Machine Learning_Andrew Ng](./Machine_Learning_Coursera_Andrew-Ng)-- *In progress*
+### 1.[Machine Learning_Andrew Ng](./Machine_Learning_Coursera_Andrew-Ng) -- *In progress*
 ### 2.[Neural_Networks_for_Machine_Learning_BY_Geoffrey_Hinton](./Neural_Networks_for_Machine_Learning)
 ### 3.[Deep Learning AI_Andrew Ng](./Deep_Learning_AI_Andrew_Ng) -- *Done*
 ### 4.[Stanford MOOC_Andrew Ng (20 syllabuses)](./Machine_Learning_Stanford_MOOC_Andrew-Ng)	
