@@ -1,7 +1,8 @@
 ## Courses
 ### 1.[Machine Learning_Andrew Ng](./Machine_Learning_Coursera_Andrew-Ng) -- *In progress*
-### 2.[Neural_Networks_for_Machine_Learning_BY_Geoffrey_Hinton](./Neural_Networks_for_Machine_Learning)
-### 3.[Deep Learning AI_Andrew Ng](./Deep_Learning_AI_Andrew_Ng) -- *Done*
+### 2.[Neural_Networks_for_Machine_Learning_BY_Geoffrey_Hinton](./Neural_Networks_for_Machine_Learning_Geoffrey_Hinton)
+### 3.[Deep Learning AI_Andrew Ng](./Deep_Learning_AI_Andrew_Ng)
+	- Neural Networks and Deep Learning
 ### 4.[Stanford MOOC_Andrew Ng (20 syllabuses)](./Machine_Learning_Stanford_MOOC_Andrew-Ng)	
 ### 5.[Applied Data Science with Python](./Applied_Data_Science_with_Python) -- *Stop by unfriendly course content*
 ### 6.[Introduction_to_Programming_with_Matlab](./Introduction_to_Programming_with_Matlab) -- *In progress*
