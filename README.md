@@ -1,15 +1,15 @@
 ## Courses
 ### 1.[Machine Learning_Andrew Ng](./Machine_Learning_Coursera_Andrew-Ng) -- *In progress*
 ### 2.[Neural_Networks_for_Machine_Learning_BY_Geoffrey_Hinton](./Neural_Networks_for_Machine_Learning_Geoffrey_Hinton)
-### 3.[Deep Learning AI_Andrew Ng](./Deep_Learning_AI_Andrew_Ng)
+### 3.[Deep Learning AI_Andrew Ng](./Deep_Learning_AI_Andrew_Ng) -- *In progress*
 	- Neural Networks and Deep Learning -- *Done*
 	- Improving Deep Neural Networks -- *Done*
-	- Structuring Machin Learning Projects -- *In progress*
-### 4.[Stanford MOOC_Andrew Ng (20 syllabuses)](./Machine_Learning_Stanford_MOOC_Andrew-Ng)	
+	- Structuring Machin Learning Projects -- *Done*
+### 4.[Stanford MOOC_Andrew Ng (20 syllabuses)](./Machine_Learning_Stanford_MOOC_Andrew-Ng) -- *Not Start*
 ### 5.[Applied Data Science with Python](./Applied_Data_Science_with_Python) -- *Stop by unfriendly course content*
 ### 6.[Introduction_to_Programming_with_Matlab](./Introduction_to_Programming_with_Matlab) -- *In progress*
-### 7.[《机器学习基石》](./Machine_Learning_Foundations_MOOC)
-### 8.[《机器学习技法》](.)
+### 7.[《机器学习基石》](./Machine_Learning_Foundations_MOOC) -- *Not Start*
+### 8.[《机器学习技法》](.) -- *Not Start*
 	
 ---
 
@@ -17,7 +17,7 @@
 ### [机器学习实战](./Machine_Learning_in_Action)
 ### 统计学习方法
 ### [集体智慧编程](./Programming_Collective_Intelligence)
-### 李宏毅深度学习课程ppt
+### 李宏毅深度学习课程PPT
 
 ---
 ## 数学基础
