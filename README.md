@@ -14,10 +14,10 @@
 ---
 
 ## 《参考书目》
-### - [机器学习实战](./Machine_Learning_in_Action)
-### - 统计学习方法
-### - [集体智慧编程](./Programming_Collective_Intelligence)
-### - 李宏毅深度学习课程PPT
+### 1.[机器学习实战](./Machine_Learning_in_Action)
+### 2.统计学习方法
+### 3.[集体智慧编程](./Programming_Collective_Intelligence)
+### 4.李宏毅深度学习课程PPT
 
 ---
 ## 数学基础
