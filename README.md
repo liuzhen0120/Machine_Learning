@@ -10,6 +10,7 @@
 ### 6.[Introduction_to_Programming_with_Matlab](./Introduction_to_Programming_with_Matlab) -- *In progress*
 ### 7.[《机器学习基石》](./Machine_Learning_Foundations_MOOC) -- *Not Start*
 ### 8.[《机器学习技法》](.) -- *Not Start*
+### 9.[Intro to Machine learning -- Udacity](./Intro_to_Machine_Learning_Udacity) -- *In progress*
 	
 ---
 
