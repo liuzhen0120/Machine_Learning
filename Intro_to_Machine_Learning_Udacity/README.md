@@ -3,4 +3,7 @@
 
 ---
 ### FAQ
-- 1.Use python2
+- 1.Use python2.
+- 2.scipy-1.0.0b1-cp27-cp27m-win_amd64.whl is not a supported wheel on this platform
+	-  `>>> import pip`
+	- `>>> print pip.pep425tags.get_supported()`to see which version supported on this platform.

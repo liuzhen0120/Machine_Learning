@@ -8,7 +8,7 @@
 ### 4.[Stanford MOOC_Andrew Ng (20 syllabuses)](./Machine_Learning_Stanford_MOOC_Andrew-Ng) -- *Not Start*
 ### 5.[Applied Data Science with Python](./Applied_Data_Science_with_Python) -- *Stop by unfriendly course content*
 ### 6.[Introduction_to_Programming_with_Matlab](./Introduction_to_Programming_with_Matlab) -- *In progress*
-### 7.[《机器学习基石》](./Machine_Learning_Foundations_MOOC) -- *Not Start*
+### 7.[《机器学习基石》](./Machine_Learning_Foundations_Coursera) -- *Not Start*
 ### 8.[《机器学习技法》](.) -- *Not Start*
 ### 9.[Intro to Machine learning -- Udacity](./Intro_to_Machine_Learning_Udacity) -- *In progress*
 	
