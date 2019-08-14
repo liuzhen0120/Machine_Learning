@@ -1,5 +1,5 @@
 ## Courses
-### 1.[Machine Learning_Andrew Ng](./Machine_Learning_Coursera_Andrew-Ng) -- *In progress*
+### 1.[Machine Learning_Andrew Ng](./Machine_Learning_Coursera_Andrew-Ng) -- *Done*
 ### 2.[Neural_Networks_for_Machine_Learning_BY_Geoffrey_Hinton](./Neural_Networks_for_Machine_Learning_Geoffrey_Hinton) -- *In progress*
 ### 3.[Deep Learning AI_Andrew Ng](./Deep_Learning_AI_Andrew_Ng) -- *In progress*
 - Neural Networks and Deep Learning -- *Done*
